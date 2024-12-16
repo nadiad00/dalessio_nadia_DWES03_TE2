@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "fd510459-ae9c-4770-aaf2-ccda7d7809b2",
+		"name": "DWES03TE2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "40395649"
+	},
+	"item": [
+		{
+			"name": "error",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/pokemin"
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\"Terapagos\", \"Gouging Fire\", \"Victini\", \"Ribombee\", \"Scolipede\", \"Garganacl\"]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/equipos/post/"
+			},
+			"response": []
+		},
+		{
+			"name": "put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Galvantula\"]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/equipos/put/3/"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/equipos/delete/7/"
+			},
+			"response": []
+		},
+		{
+			"name": "get equipos/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/equipos/"
+			},
+			"response": []
+		},
+		{
+			"name": "get equipos/get/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/equipos/get/"
+			},
+			"response": []
+		},
+		{
+			"name": "equipos get id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/equipos/get/4/"
+			},
+			"response": []
+		},
+		{
+			"name": "get pokemons/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/pokemons/"
+			},
+			"response": []
+		},
+		{
+			"name": "get pokemons/get/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/pokemons/get/"
+			},
+			"response": []
+		},
+		{
+			"name": "pokemon get tipo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/pokemons/get/psiquico/"
+			},
+			"response": []
+		},
+		{
+			"name": "pokemon get generación",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"Joltik\", \"Fuecoco\", \"Mimikyu\", \"Vaporeon\", \"Phantump\", \"Koraidon\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost/dalessio_nadia_DWES03_TE2/public/pokemons/get/9/"
+			},
+			"response": []
+		}
+	]
+}
